@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.openaccordion_btn {
+  background-color: #b69e84;
+  background-color: #999;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 1rem;
+  opacity: 0.8;
+  position: relative;
+  cursor: pointer; }
+
+.openaccordion_btn:hover {
+  opacity: 1; }
+
+.openaccordion_btn::after {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  content: "▼";
+  color: #fff; }
+
+.openaccordion_btn.active::after {
+  content: "▲"; }
+
+.accordion_txt {
+  background-color: #faf3eb;
+  background-color: #f7f7f7;
+  border: 1px solid #dacec1;
+  border-color: #ccc;
+  padding: 10px;
+  display: none;
+  font-size: 1rem; }
