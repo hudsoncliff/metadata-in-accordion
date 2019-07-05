@@ -10,10 +10,10 @@
   "license": "",
   "devDependencies": {
     "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^6.4.0",
-    "gulp-sass": "^3.1.0",
-    "postcss-cssnext": "^2.10.0"
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-cssnext": "^3.1.0"
   },
   "dependencies": {}
 }
