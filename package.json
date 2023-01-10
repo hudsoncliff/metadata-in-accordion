@@ -9,7 +9,7 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.27.11",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
